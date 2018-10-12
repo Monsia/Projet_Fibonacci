@@ -17,10 +17,9 @@ jobs:
 
     steps:
       - checkout
-
-      - run:
-          name: run tests
-          command: 
+      - run: 
+          name : run tests
+          command:
             python FibonacciTest test
 
  
